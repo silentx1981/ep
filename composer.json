@@ -1,0 +1,11 @@
+{
+  "name": "raffaelwyss/ep",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Raffaelwyss\\ep\\": "src/"
+    }
+  }
+}
