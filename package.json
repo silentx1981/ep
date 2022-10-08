@@ -6,7 +6,9 @@
   },
   "targets": {
     "frontend": {
-      "source": "./srcjs/index.html",
+      "source": [
+        "./srcjs/index.html"
+      ],
       "distDir": "./public"
     }
   },
@@ -14,5 +16,8 @@
     "@parcel/transformer-vue": "^2.7.0",
     "parcel": "^2.7.0",
     "vue": "^3.2.40"
+  },
+  "dependencies": {
+    "@silentx/rwhttp": "github:silentx1981/rwHttp"
   }
 }
