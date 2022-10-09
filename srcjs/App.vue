@@ -1,6 +1,7 @@
 <template>
   <div>Hello {{ name }}!
-     abc
+     <InputText />
+    <button @click="logout()">abc</button>
   </div>
 </template>
 
